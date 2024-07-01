@@ -58,23 +58,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  border: 2px solid black;
+  margin-bottom: 50px;
+  border-radius: 20px;
   width: 90%;
   font-family: 'Lora', serif;
   color: #557c3e;
   align-items: center;
+  overflow: hidden;
 }
 
-.row {
-  width: 100%;
-}
 
 p {
-  margin-right: auto;
-  margin-left: auto;
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  clear: both;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Lora', sans-serif;
+  color: black;
+  margin-top: 5px;
+  text-align: justify;
 }
 
 h1 {
@@ -96,7 +96,7 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
   line-height: .75;
 }
